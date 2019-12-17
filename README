@@ -1,1 +1,25 @@
-Topic modeling for boardgames
+## Topic modeling for boardgames
+
+First, I have created a conda environment:
+
+conda create -n env-topicmodeling python=3.7.5
+
+conda activate env-topicmodeling
+
+ 
+
+Then, installed pandas, gensim, and nltk libraries:
+
+conda install pandas gensim
+
+conda install -c anaconda nltk
+
+ 
+
+Then, installed spacy for English:
+
+conda install -c conda-forge spacy
+
+python -m spacy download en_core_web_sm
+
+Other comments are in the notebook, you can see how to change the number of topics in comments as well.
